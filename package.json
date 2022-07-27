@@ -1,0 +1,86 @@
+{
+  "name": "dhis2-react-boiler-plate",
+  "version": "1.0.0",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "scripts": {
+    "build": "d2-app-scripts build",
+    "start": "d2-app-scripts start",
+    "test": "d2-app-scripts test",
+    "deploy": "d2-app-scripts deploy"
+  },
+  "devDependencies": {
+    "@dhis2/cli-app-scripts": "^10.0.0"
+  },
+  "dependencies": {
+    "@dhis2/app-runtime": "^3.4.4",
+    "@dhis2/ui": "^8.4.5",
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.1",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "cypress": "^10.3.1",
+    "typescript": "^4.7.4"
+  },
+  "main": "./build/cjs/index.js",
+  "module": "./build/es/index.js",
+  "types": "./build/types/index.d.ts",
+  "exports": {
+    "import": "./build/es/index.js",
+    "require": "./build/cjs/index.js"
+  },
+  "files": [
+    "build/**",
+    "postinstall.js"
+  ],
+  "peerDependencies": {
+    "@dhis2/app-runtime": "^3.2.5",
+    "@dhis2/ui": "^7.7.5",
+    "lodash": "^4.17.21"
+  },
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      },
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      },
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      },
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      },
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  }
+}
